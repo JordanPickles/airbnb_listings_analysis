@@ -1,12 +1,12 @@
-#AirBnB London Listings Analysis
+# AirBnB London Listings Analysis
 
-###AirBnB revenue Model
+### AirBnB revenue Model
 AirBnB's business revenue model works on a flat ~15.5% commission fee on the booking price which the host pays. Therefore the key drivers in AirBnB's revenue model are Nights Booked and Property Price. Increases in both of these factors result in greater revenues.
 
-###Analysis Overview
+### Analysis Overview
 Therefore the analysis on the Property Listings below focusses on the Property Price, highlights characteristics explaing variability in Price and identifies outliers within subgroups of properties which could be used by AirBnB to notify hosts that their property is mis-priced vs similar listings.
 
-###Findings Summary
+### Findings Summary
 Price was found to be driven by the number of guests that can be accomodated (size), location and property type. Therefore outliers were detected within location and guests accommodated groups using the percentile ranks (bottom 10% as low pricing, top 90% as high priced).
 
 ### Limitations
